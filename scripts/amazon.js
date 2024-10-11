@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js';
+
 products.forEach((product) => {
   const productsGrid = document.querySelector(".products-grid");
   const productContainer = document.createElement("div");
